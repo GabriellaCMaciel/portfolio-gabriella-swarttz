@@ -1,0 +1,12 @@
+body {
+    background-color: var(--fundo);
+    color: var(--texto);
+    min-height: 100vh;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--link);
+    
+}
