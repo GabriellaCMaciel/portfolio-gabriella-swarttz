@@ -1,0 +1,27 @@
+body {
+    background-color: var(--fundo);
+    color: var(--texto);
+    min-height: 100vh;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--fundo);
+}
+
+a {
+    color: var(--link);
+    
+}
+
+a ::placeholder {
+    color: var(--texto);
+}
