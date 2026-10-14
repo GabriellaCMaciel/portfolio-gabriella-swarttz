@@ -10,11 +10,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3px;
+    padding: 0.7rem;
     position:sticky;
     top: 0;
     z-index: 1;
     background-color: var(--fundo);
+}
+
+.logo {
+    padding: 0.5rem;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: var(--texto);
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 4px;
 }
 
 a {
@@ -22,6 +38,6 @@ a {
     
 }
 
-a ::placeholder {
-    color: var(--texto);
+a:hover {
+    color: var(--texto-suave);
 }
